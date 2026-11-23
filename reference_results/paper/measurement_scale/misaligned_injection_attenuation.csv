@@ -1,0 +1,9 @@
+study,relation,injection_spec,injection_label,retained_step_fraction_at_15,signal_sd
+greater_london,nhs_gp,aligned_area_point,Break aligned to area point,0.9999999999999992,0.3496699216814677
+greater_london,nhs_gp,postcode_aggregated,Resident-origin break aggregated by LSOA,0.38565221407780736,0.2551302613897092
+greater_london,osm_pharmacy,aligned_area_point,Break aligned to area point,1.0000000000000018,0.37584976599598907
+greater_london,osm_pharmacy,postcode_aggregated,Resident-origin break aggregated by LSOA,0.360108434134665,0.2784629008104283
+greater_manchester,nhs_gp,aligned_area_point,Break aligned to area point,0.999999999999999,0.47063489520964347
+greater_manchester,nhs_gp,postcode_aggregated,Resident-origin break aggregated by LSOA,0.3554879187173874,0.36389157245869336
+greater_manchester,osm_pharmacy,aligned_area_point,Break aligned to area point,1.0,0.49840320590073706
+greater_manchester,osm_pharmacy,postcode_aggregated,Resident-origin break aggregated by LSOA,0.40917554193674904,0.4187481893338614

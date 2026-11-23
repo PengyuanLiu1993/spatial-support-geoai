@@ -1,0 +1,14 @@
+{
+  "seed": 20260826,
+  "num_buildings": 480,
+  "num_amenities": 80,
+  "neighbors_per_building": 5,
+  "amenities_per_building": 10,
+  "hidden_dim": 32,
+  "layers": 2,
+  "dropout": 0.1,
+  "epochs": 120,
+  "patience": 20,
+  "learning_rate": 0.01,
+  "weight_decay": 0.0001
+}

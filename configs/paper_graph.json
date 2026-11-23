@@ -1,0 +1,29 @@
+{
+  "area_backbone": "mlp",
+  "cross_city_pooling": true,
+  "dropout": 0.15,
+  "edge_basis": "full",
+  "epochs": 240,
+  "export_relation_access": true,
+  "hgb_residual": true,
+  "hidden_dim": 32,
+  "kernel_mode": "gated",
+  "layers": 1,
+  "learning_rate": 0.001,
+  "message_dim": 8,
+  "outer_refit": true,
+  "patience": 30,
+  "queen_message_passing": true,
+  "residual_context_covariates": true,
+  "weight_decay": 0.001,
+  "seeds": [
+    20260827,
+    20260828,
+    20260829,
+    20260830,
+    20260831
+  ],
+  "hgb_seed": 20260827,
+  "prediction_dir": "results/heterogeneous_facility_predictions_gated_gravity_cv5_relation_access_seeds5",
+  "output": "results/heterogeneous_facility_gated_gravity_gnn_hgb_residual_cv5_relation_access_seeds5.json"
+}

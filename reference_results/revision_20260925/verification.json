@@ -1,0 +1,29 @@
+{
+  "checks": "Original 16 postcode classification counts reproduced; 13,392 LSOA-service summaries complete; positive matched populations; bounded monotone shares; directional count sums; exact partial-projection identity; independent least-squares recovery check; all 216 trend-origin-outcome families retained.",
+  "panels": [
+    {
+      "study": "greater_london",
+      "relation": "nhs_gp",
+      "partial_projection_ratio": 0.3832143766431085,
+      "max_paired_share_recovery_error": 1.9984014443252818e-15
+    },
+    {
+      "study": "greater_london",
+      "relation": "osm_pharmacy",
+      "partial_projection_ratio": 0.37256608326706675,
+      "max_paired_share_recovery_error": 2.220446049250313e-15
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "nhs_gp",
+      "partial_projection_ratio": 0.3562213450918681,
+      "max_paired_share_recovery_error": 2.4424906541753444e-15
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "osm_pharmacy",
+      "partial_projection_ratio": 0.41891970672887524,
+      "max_paired_share_recovery_error": 1.7763568394002505e-15
+    }
+  ]
+}

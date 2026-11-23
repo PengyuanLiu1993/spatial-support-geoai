@@ -1,0 +1,28 @@
+{
+  "ahah": "data/raw/ahah_v5_1/ahah_v5_1_geo.parquet",
+  "crs": "EPSG:27700",
+  "folds": 5,
+  "seed": 20260826,
+  "studies": [
+    {
+      "id": "greater_london",
+      "label": "Greater London",
+      "role": "comparative_case_with_spatial_cross_validation",
+      "area_name": "Greater London",
+      "admin_level": "5",
+      "source_pbf": "data/raw/osm/greater_london_2026_08_20/greater-london-260820.osm.pbf",
+      "source_url": "https://download.geofabrik.de/europe/united-kingdom/england/greater-london.html",
+      "snapshot": "2026-08-20"
+    },
+    {
+      "id": "greater_manchester",
+      "label": "Greater Manchester",
+      "role": "comparative_case_with_spatial_cross_validation",
+      "area_name": "Greater Manchester",
+      "admin_level": "5",
+      "source_pbf": "data/raw/osm/greater_manchester_2026_08_26/greater-manchester-260826.osm.pbf",
+      "source_url": "https://download.geofabrik.de/europe/united-kingdom/england/greater-manchester.html",
+      "snapshot": "2026-08-26"
+    }
+  ]
+}

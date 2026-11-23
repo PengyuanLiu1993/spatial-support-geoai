@@ -1,0 +1,312 @@
+{
+  "design": "Across-seed measurement reliability audit of strict-OOF relation counterfactuals; negative ICC estimates are retained rather than clipped.",
+  "fold_residual_weights": [
+    {
+      "seed_count": 5,
+      "study": "greater_london",
+      "test_fold": 0,
+      "weight_max": 1.0,
+      "weight_mean": 0.65,
+      "weight_min": 0.25,
+      "weight_sd": 0.2850438563,
+      "weights": "0.25;0.75;0.75;0.50;1.00",
+      "zero_weight_count": 0
+    },
+    {
+      "seed_count": 5,
+      "study": "greater_london",
+      "test_fold": 1,
+      "weight_max": 1.0,
+      "weight_mean": 0.75,
+      "weight_min": 0.5,
+      "weight_sd": 0.25,
+      "weights": "1.00;0.75;1.00;0.50;0.50",
+      "zero_weight_count": 0
+    },
+    {
+      "seed_count": 5,
+      "study": "greater_london",
+      "test_fold": 2,
+      "weight_max": 1.0,
+      "weight_mean": 1.0,
+      "weight_min": 1.0,
+      "weight_sd": 0.0,
+      "weights": "1.00;1.00;1.00;1.00;1.00",
+      "zero_weight_count": 0
+    },
+    {
+      "seed_count": 5,
+      "study": "greater_london",
+      "test_fold": 3,
+      "weight_max": 1.0,
+      "weight_mean": 0.75,
+      "weight_min": 0.25,
+      "weight_sd": 0.3535533906,
+      "weights": "1.00;1.00;1.00;0.50;0.25",
+      "zero_weight_count": 0
+    },
+    {
+      "seed_count": 5,
+      "study": "greater_london",
+      "test_fold": 4,
+      "weight_max": 1.0,
+      "weight_mean": 0.25,
+      "weight_min": 0.0,
+      "weight_sd": 0.4330127019,
+      "weights": "0.25;1.00;0.00;0.00;0.00",
+      "zero_weight_count": 3
+    },
+    {
+      "seed_count": 5,
+      "study": "greater_manchester",
+      "test_fold": 0,
+      "weight_max": 1.0,
+      "weight_mean": 0.9,
+      "weight_min": 0.75,
+      "weight_sd": 0.1369306394,
+      "weights": "1.00;1.00;0.75;0.75;1.00",
+      "zero_weight_count": 0
+    },
+    {
+      "seed_count": 5,
+      "study": "greater_manchester",
+      "test_fold": 1,
+      "weight_max": 1.0,
+      "weight_mean": 0.6,
+      "weight_min": 0.0,
+      "weight_sd": 0.5477225575,
+      "weights": "0.00;1.00;0.00;1.00;1.00",
+      "zero_weight_count": 2
+    },
+    {
+      "seed_count": 5,
+      "study": "greater_manchester",
+      "test_fold": 2,
+      "weight_max": 1.0,
+      "weight_mean": 1.0,
+      "weight_min": 1.0,
+      "weight_sd": 0.0,
+      "weights": "1.00;1.00;1.00;1.00;1.00",
+      "zero_weight_count": 0
+    },
+    {
+      "seed_count": 5,
+      "study": "greater_manchester",
+      "test_fold": 3,
+      "weight_max": 1.0,
+      "weight_mean": 0.75,
+      "weight_min": 0.0,
+      "weight_sd": 0.4330127019,
+      "weights": "1.00;1.00;0.75;1.00;0.00",
+      "zero_weight_count": 1
+    },
+    {
+      "seed_count": 5,
+      "study": "greater_manchester",
+      "test_fold": 4,
+      "weight_max": 1.0,
+      "weight_mean": 0.95,
+      "weight_min": 0.75,
+      "weight_sd": 0.1118033989,
+      "weights": "0.75;1.00;1.00;1.00;1.00",
+      "zero_weight_count": 0
+    }
+  ],
+  "graph_gravity_exposure_correlations": [
+    {
+      "area_count": 4994,
+      "delta_5min_pearson": 0.0086413932,
+      "delta_5min_spearman": -0.0780477692,
+      "level_pearson": -0.0471769931,
+      "level_spearman": -0.094597861,
+      "relation": "nhs_gp",
+      "study": "greater_london"
+    },
+    {
+      "area_count": 4994,
+      "delta_5min_pearson": -0.2819614027,
+      "delta_5min_spearman": -0.2868432869,
+      "level_pearson": 0.0169760705,
+      "level_spearman": 0.02262378,
+      "relation": "os_green",
+      "study": "greater_london"
+    },
+    {
+      "area_count": 4994,
+      "delta_5min_pearson": -0.1815978895,
+      "delta_5min_spearman": -0.1892356308,
+      "level_pearson": -0.3560092032,
+      "level_spearman": -0.3672742281,
+      "relation": "osm_pharmacy",
+      "study": "greater_london"
+    },
+    {
+      "area_count": 1702,
+      "delta_5min_pearson": -0.2090674368,
+      "delta_5min_spearman": -0.3092834312,
+      "level_pearson": 0.0514135974,
+      "level_spearman": 0.0950749948,
+      "relation": "nhs_gp",
+      "study": "greater_manchester"
+    },
+    {
+      "area_count": 1702,
+      "delta_5min_pearson": 0.1014894914,
+      "delta_5min_spearman": 0.1123413057,
+      "level_pearson": 0.1452765328,
+      "level_spearman": 0.1444798569,
+      "relation": "os_green",
+      "study": "greater_manchester"
+    },
+    {
+      "area_count": 1702,
+      "delta_5min_pearson": -0.0719222754,
+      "delta_5min_spearman": -0.168314934,
+      "level_pearson": -0.1244093098,
+      "level_spearman": -0.1344898887,
+      "relation": "osm_pharmacy",
+      "study": "greater_manchester"
+    }
+  ],
+  "kernel_rmse_seed_dispersion": [
+    {
+      "maximum": 5.5616114507,
+      "mean": 5.5003634788,
+      "metric": "rmse",
+      "minimum": 5.4699458473,
+      "sd": 0.0374647531,
+      "seed_count": 5,
+      "study": "greater_london",
+      "variant": "gated_gravity"
+    },
+    {
+      "maximum": 4.0195928901,
+      "mean": 3.9740990307,
+      "metric": "rmse",
+      "minimum": 3.9385052601,
+      "sd": 0.0317997312,
+      "seed_count": 5,
+      "study": "greater_manchester",
+      "variant": "gated_gravity"
+    },
+    {
+      "maximum": 5.5637962454,
+      "mean": 5.5003948389,
+      "metric": "rmse",
+      "minimum": 5.4671199546,
+      "sd": 0.0391838667,
+      "seed_count": 5,
+      "study": "greater_london",
+      "variant": "hard_gravity"
+    },
+    {
+      "maximum": 4.0236287163,
+      "mean": 3.9780978622,
+      "metric": "rmse",
+      "minimum": 3.9442557953,
+      "sd": 0.0310084045,
+      "seed_count": 5,
+      "study": "greater_manchester",
+      "variant": "hard_gravity"
+    },
+    {
+      "maximum": 5.5603773664,
+      "mean": 5.5004550015,
+      "metric": "rmse",
+      "minimum": 5.4695911274,
+      "sd": 0.0367962578,
+      "seed_count": 5,
+      "study": "greater_london",
+      "variant": "no_gravity"
+    },
+    {
+      "maximum": 4.0178722555,
+      "mean": 3.972505819,
+      "metric": "rmse",
+      "minimum": 3.9419235136,
+      "sd": 0.0322761766,
+      "seed_count": 5,
+      "study": "greater_manchester",
+      "variant": "no_gravity"
+    }
+  ],
+  "primary_care_observed_access": [
+    {
+      "area_count": 4994,
+      "between_area_sd_of_seed_mean": 0.0004293508,
+      "between_to_within_sd_ratio": 0.4096832951,
+      "ensemble_mean": 0.0002924439,
+      "ensemble_mean_absolute": 0.0003089835,
+      "icc_seed_mean": -0.191608202,
+      "icc_single_seed": -0.0332282034,
+      "ms_between": 9.217e-07,
+      "ms_within": 1.0983e-06,
+      "pairwise_seed_correlation_mean": 0.0233094792,
+      "pairwise_seed_correlation_min": -0.1814604001,
+      "relation": "nhs_gp",
+      "seed_count": 5,
+      "shift_minutes": 0.0,
+      "study": "greater_london",
+      "within_area_seed_sd_mean": 0.0005799759,
+      "within_area_seed_sd_rms": 0.0010480066
+    },
+    {
+      "area_count": 4994,
+      "between_area_sd_of_seed_mean": 0.0002743942,
+      "between_to_within_sd_ratio": 0.4043746691,
+      "ensemble_mean": 8.95711e-05,
+      "ensemble_mean_absolute": 0.0001529008,
+      "icc_seed_mean": -0.2231004063,
+      "icc_single_seed": -0.0378623896,
+      "ms_between": 3.765e-07,
+      "ms_within": 4.604e-07,
+      "pairwise_seed_correlation_mean": -0.0065042383,
+      "pairwise_seed_correlation_min": -0.2528398317,
+      "relation": "osm_pharmacy",
+      "seed_count": 5,
+      "shift_minutes": 0.0,
+      "study": "greater_london",
+      "within_area_seed_sd_mean": 0.0003740397,
+      "within_area_seed_sd_rms": 0.0006785644
+    },
+    {
+      "area_count": 1702,
+      "between_area_sd_of_seed_mean": 0.0002321869,
+      "between_to_within_sd_ratio": 0.5495442509,
+      "ensemble_mean": 0.0001979229,
+      "ensemble_mean_absolute": 0.0002086436,
+      "icc_seed_mean": 0.3377458965,
+      "icc_single_seed": 0.0925580645,
+      "ms_between": 2.696e-07,
+      "ms_within": 1.785e-07,
+      "pairwise_seed_correlation_mean": 0.063399479,
+      "pairwise_seed_correlation_min": -0.2595891549,
+      "relation": "nhs_gp",
+      "seed_count": 5,
+      "shift_minutes": 0.0,
+      "study": "greater_manchester",
+      "within_area_seed_sd_mean": 0.0003256221,
+      "within_area_seed_sd_rms": 0.000422508
+    },
+    {
+      "area_count": 1702,
+      "between_area_sd_of_seed_mean": 0.0001384385,
+      "between_to_within_sd_ratio": 0.4711417227,
+      "ensemble_mean": -8.2549e-06,
+      "ensemble_mean_absolute": 8.82168e-05,
+      "icc_seed_mean": 0.098995698,
+      "icc_single_seed": 0.0215020261,
+      "ms_between": 9.58e-08,
+      "ms_within": 8.63e-08,
+      "pairwise_seed_correlation_mean": 0.0558999535,
+      "pairwise_seed_correlation_min": -0.4827305621,
+      "relation": "osm_pharmacy",
+      "seed_count": 5,
+      "shift_minutes": 0.0,
+      "study": "greater_manchester",
+      "within_area_seed_sd_mean": 0.000215729,
+      "within_area_seed_sd_rms": 0.0002938362
+    }
+  ],
+  "reliability_interpretation": "icc_seed_mean measures reliability of the five-seed mean under a one-way random-effects model; it does not establish construct validity."
+}

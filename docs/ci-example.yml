@@ -1,0 +1,36 @@
+name: Code and reference checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      MPLBACKEND: Agg
+      OMP_NUM_THREADS: "2"
+      OPENBLAS_NUM_THREADS: "2"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install CPU PyTorch and dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -e ".[dev,geo,analysis]"
+      - name: Run tests
+        run: python -m pytest
+      - name: Verify reference tables
+        run: python scripts/check_reference_results.py
+      - name: Verify synthetic coefficient recovery
+        run: python examples/aggregation_recovery.py
+      - name: Run graph smoke test
+        run: python -m gravity_gnn.cli smoke --epochs 5 --device cpu --output results/smoke.json

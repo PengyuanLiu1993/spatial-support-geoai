@@ -1,0 +1,20 @@
+{
+  "retrieved_utc": "2026-09-25T11:16:05.909561+00:00",
+  "files": [
+    {
+      "file": "greater_london_ons_population_weighted_centroids.csv",
+      "source": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LSOA_PopCentroids_EW_2021_V4/FeatureServer/0",
+      "sha256": "370f719ab407d22de98483f8fba3c37ffaa9008bf46de94da8b22a816b7b9db6"
+    },
+    {
+      "file": "greater_manchester_ons_population_weighted_centroids.csv",
+      "source": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LSOA_PopCentroids_EW_2021_V4/FeatureServer/0",
+      "sha256": "c1816c23cd65c1318a53df0f1db4cdd5ba2249aed0b801e1231ae78a05faeb27"
+    },
+    {
+      "file": "census2021_postcode_residents_p001.csv",
+      "source": "https://www.nomisweb.co.uk/output/census/2021/pcd_p001.csv",
+      "sha256": "f554845534c21ac82c98b1f2dc7865864c7ab28fd88bff9efc5034fb23e55445"
+    }
+  ]
+}

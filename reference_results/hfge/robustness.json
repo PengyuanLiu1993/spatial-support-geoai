@@ -1,0 +1,91 @@
+{
+  "design": {
+    "ensemble": "fixed 50:50 TabPFN and graph-hybrid prediction",
+    "excluded_relations": [
+      "nhs_gp",
+      "nhs_dentist",
+      "osm_hospital",
+      "osm_pharmacy"
+    ],
+    "seeds": [
+      20260827,
+      20260828,
+      20260829,
+      20260830,
+      20260831
+    ],
+    "uncertainty": "5000 resamples of 25 spatial blocks for the five-seed ensemble RMSE difference"
+  },
+  "healthcare_relation_ablation": [
+    {
+      "ablated_minus_full_rmse": -0.00041916274503428497,
+      "bootstrap_lower": -0.004317959449119191,
+      "bootstrap_share_above_zero": 0.4056,
+      "bootstrap_upper": 0.002911275314482962,
+      "full_mae": 4.229435186213779,
+      "full_minus_no_ahah_healthcare_rmse": 0.00038564799647833325,
+      "full_r2": 0.7318070605765911,
+      "full_rmse": 5.312493104465779,
+      "no_ahah_healthcare_mae": 4.228486122239255,
+      "no_ahah_healthcare_r2": 0.7318603506674741,
+      "no_ahah_healthcare_rmse": 5.312107456469301,
+      "study": "greater_london"
+    },
+    {
+      "ablated_minus_full_rmse": 0.00011797598423957112,
+      "bootstrap_lower": -0.004185196441342698,
+      "bootstrap_share_above_zero": 0.5104,
+      "bootstrap_upper": 0.00490743955541385,
+      "full_mae": 3.004467564209958,
+      "full_minus_no_ahah_healthcare_rmse": 0.0001867989755117705,
+      "full_r2": 0.6927299258321767,
+      "full_rmse": 3.888676172624821,
+      "no_ahah_healthcare_mae": 3.0038056777626214,
+      "no_ahah_healthcare_r2": 0.6927995331098937,
+      "no_ahah_healthcare_rmse": 3.888489373649309,
+      "study": "greater_manchester"
+    }
+  ],
+  "seed_robustness": {
+    "greater_london": {
+      "full_mae": {
+        "maximum": 4.256990924472274,
+        "mean": 4.2329185434991,
+        "minimum": 4.21780788158776,
+        "sd": 0.014937200139152862
+      },
+      "full_r2": {
+        "maximum": 0.7328593355238221,
+        "mean": 0.7314353903065818,
+        "minimum": 0.728332204810836,
+        "sd": 0.001803949889681757
+      },
+      "full_rmse": {
+        "maximum": 5.342455238182595,
+        "mean": 5.316200314654969,
+        "minimum": 5.30261377095635,
+        "sd": 0.015733405818989576
+      }
+    },
+    "greater_manchester": {
+      "full_mae": {
+        "maximum": 3.034243380983508,
+        "mean": 3.01415080168171,
+        "minimum": 2.9962429457308453,
+        "sd": 0.01393679019230561
+      },
+      "full_r2": {
+        "maximum": 0.6938536074869887,
+        "mean": 0.6908643774807258,
+        "minimum": 0.6879622265148202,
+        "sd": 0.002530361674713789
+      },
+      "full_rmse": {
+        "maximum": 3.926977675418437,
+        "mean": 3.901702926601181,
+        "minimum": 3.882563614210975,
+        "sd": 0.018469971243054384
+      }
+    }
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "design": {
+    "relations": [
+      "nhs_gp",
+      "osm_pharmacy"
+    ],
+    "cities": [
+      "greater_london",
+      "greater_manchester"
+    ],
+    "thresholds_minutes": [
+      5.0,
+      10.0,
+      15.0,
+      20.0
+    ],
+    "models": {
+      "local_hgb": "Local HGB",
+      "pooled_context_hgb": "Pooled Context-HGB",
+      "continuous_gravity_hgb": "Continuous Gravity-HGB",
+      "nested_gravity_hgb_tabpfn": "Nested Gravity HGB-TabPFN",
+      "hfge": "HFGE"
+    },
+    "origin_specifications": {
+      "representative_point": "LSOA representative point",
+      "postcode_median": "Postcode-origin median",
+      "postcode_p90": "Postcode-origin P90",
+      "all_building_median": "All-building-origin median",
+      "residential_building_median": "Residential-building-origin median"
+    },
+    "bootstrap_replicates": 2000,
+    "spatial_blocks": 25,
+    "fdr_families": {
+      "q_within_origin_family": "valid primary-care cells within each model and origin specification",
+      "q_joint_origin_family": "all valid primary-care cells across the five origin specifications within each model"
+    }
+  },
+  "discoveries": [
+    {
+      "origin_spec": "all_building_median",
+      "model": "continuous_gravity_hgb",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.3691904047976012,
+      "minimum_q_joint_origins": 0.846376811594203
+    },
+    {
+      "origin_spec": "all_building_median",
+      "model": "hfge",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.8114692653673163,
+      "minimum_q_joint_origins": 0.9546060303181743
+    },
+    {
+      "origin_spec": "all_building_median",
+      "model": "local_hgb",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.48538230884557726,
+      "minimum_q_joint_origins": 0.9146498179481688
+    },
+    {
+      "origin_spec": "all_building_median",
+      "model": "nested_gravity_hgb_tabpfn",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.6652923538230885,
+      "minimum_q_joint_origins": 0.9690788408612594
+    },
+    {
+      "origin_spec": "all_building_median",
+      "model": "pooled_context_hgb",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.624687656171914,
+      "minimum_q_joint_origins": 0.9394052973513244
+    },
+    {
+      "origin_spec": "postcode_median",
+      "model": "continuous_gravity_hgb",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.17991004497751123,
+      "minimum_q_joint_origins": 0.846376811594203
+    },
+    {
+      "origin_spec": "postcode_median",
+      "model": "hfge",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.2848575712143928,
+      "minimum_q_joint_origins": 0.7478760619690155
+    },
+    {
+      "origin_spec": "postcode_median",
+      "model": "local_hgb",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.6146926536731634,
+      "minimum_q_joint_origins": 0.8390804597701149
+    },
+    {
+      "origin_spec": "postcode_median",
+      "model": "nested_gravity_hgb_tabpfn",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.23238380809595202,
+      "minimum_q_joint_origins": 0.9690788408612594
+    },
+    {
+      "origin_spec": "postcode_median",
+      "model": "pooled_context_hgb",
+      "valid_tests": 15,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.1349325337331334,
+      "minimum_q_joint_origins": 0.656671664167916
+    },
+    {
+      "origin_spec": "postcode_p90",
+      "model": "continuous_gravity_hgb",
+      "valid_tests": 13,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.6663810951667023,
+      "minimum_q_joint_origins": 0.846376811594203
+    },
+    {
+      "origin_spec": "postcode_p90",
+      "model": "hfge",
+      "valid_tests": 13,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.3638180909545228,
+      "minimum_q_joint_origins": 0.7478760619690155
+    },
+    {
+      "origin_spec": "postcode_p90",
+      "model": "local_hgb",
+      "valid_tests": 13,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.07146426786606697,
+      "minimum_q_joint_origins": 0.4012993503248376
+    },
+    {
+      "origin_spec": "postcode_p90",
+      "model": "nested_gravity_hgb_tabpfn",
+      "valid_tests": 13,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.6280193236714976,
+      "minimum_q_joint_origins": 0.9690788408612594
+    },
+    {
+      "origin_spec": "postcode_p90",
+      "model": "pooled_context_hgb",
+      "valid_tests": 13,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.7059803431617525,
+      "minimum_q_joint_origins": 0.9394052973513244
+    },
+    {
+      "origin_spec": "representative_point",
+      "model": "continuous_gravity_hgb",
+      "valid_tests": 16,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.9465267366316842,
+      "minimum_q_joint_origins": 0.846376811594203
+    },
+    {
+      "origin_spec": "representative_point",
+      "model": "hfge",
+      "valid_tests": 16,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.9835082458770614,
+      "minimum_q_joint_origins": 0.9985007496251874
+    },
+    {
+      "origin_spec": "representative_point",
+      "model": "local_hgb",
+      "valid_tests": 16,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.9735132433783108,
+      "minimum_q_joint_origins": 0.9146498179481688
+    },
+    {
+      "origin_spec": "representative_point",
+      "model": "nested_gravity_hgb_tabpfn",
+      "valid_tests": 16,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.9815092453773113,
+      "minimum_q_joint_origins": 0.9690788408612594
+    },
+    {
+      "origin_spec": "representative_point",
+      "model": "pooled_context_hgb",
+      "valid_tests": 16,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.8182575378977178,
+      "minimum_q_joint_origins": 0.9394052973513244
+    },
+    {
+      "origin_spec": "residential_building_median",
+      "model": "continuous_gravity_hgb",
+      "valid_tests": 14,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.7521239380309845,
+      "minimum_q_joint_origins": 0.846376811594203
+    },
+    {
+      "origin_spec": "residential_building_median",
+      "model": "hfge",
+      "valid_tests": 14,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.5737131434282858,
+      "minimum_q_joint_origins": 0.7478760619690155
+    },
+    {
+      "origin_spec": "residential_building_median",
+      "model": "local_hgb",
+      "valid_tests": 14,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.56111944027986,
+      "minimum_q_joint_origins": 0.8390804597701149
+    },
+    {
+      "origin_spec": "residential_building_median",
+      "model": "nested_gravity_hgb_tabpfn",
+      "valid_tests": 14,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.8875562218890555,
+      "minimum_q_joint_origins": 0.9690788408612594
+    },
+    {
+      "origin_spec": "residential_building_median",
+      "model": "pooled_context_hgb",
+      "valid_tests": 14,
+      "discoveries_within_origin": 0,
+      "discoveries_joint_origins": 0,
+      "minimum_q_within_origin": 0.8320455157036867,
+      "minimum_q_joint_origins": 0.9394052973513244
+    }
+  ],
+  "hfge_15_minute": [
+    {
+      "study": "greater_london",
+      "relation": "nhs_gp",
+      "origin_spec": "representative_point",
+      "step": -0.103909672919194,
+      "block_bootstrap_lower": -0.6404119119315567,
+      "block_bootstrap_upper": 0.49963691811799743,
+      "block_bootstrap_p": 0.7101449275362319,
+      "valid": true,
+      "q_within_origin_family": 0.9835082458770614,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_london",
+      "relation": "nhs_gp",
+      "origin_spec": "postcode_median",
+      "step": 0.15057695582207337,
+      "block_bootstrap_lower": -0.40307642480452865,
+      "block_bootstrap_upper": 0.8742751872151141,
+      "block_bootstrap_p": 0.6451774112943528,
+      "valid": true,
+      "q_within_origin_family": 0.8326194045834227,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_london",
+      "relation": "nhs_gp",
+      "origin_spec": "postcode_p90",
+      "step": 0.26079290367604185,
+      "block_bootstrap_lower": -0.44078537495163483,
+      "block_bootstrap_upper": 1.034147476297597,
+      "block_bootstrap_p": 0.4827586206896552,
+      "valid": true,
+      "q_within_origin_family": 0.8764708554813503,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_london",
+      "relation": "nhs_gp",
+      "origin_spec": "all_building_median",
+      "step": -0.33978718078181136,
+      "block_bootstrap_lower": -1.1360413504779543,
+      "block_bootstrap_upper": 0.5880698494809057,
+      "block_bootstrap_p": 0.43278360819590206,
+      "valid": true,
+      "q_within_origin_family": 0.8114692653673163,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_london",
+      "relation": "nhs_gp",
+      "origin_spec": "residential_building_median",
+      "step": -0.5096651949317649,
+      "block_bootstrap_lower": -1.4123371364096098,
+      "block_bootstrap_upper": 0.4251469729529699,
+      "block_bootstrap_p": 0.29485257371314344,
+      "valid": true,
+      "q_within_origin_family": 0.8450219334777055,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_london",
+      "relation": "osm_pharmacy",
+      "origin_spec": "representative_point",
+      "step": 0.5906184448530463,
+      "block_bootstrap_lower": -0.2855258617690739,
+      "block_bootstrap_upper": 1.3848686455149672,
+      "block_bootstrap_p": 0.15592203898050974,
+      "valid": true,
+      "q_within_origin_family": 0.9835082458770614,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_london",
+      "relation": "osm_pharmacy",
+      "origin_spec": "postcode_median",
+      "step": 0.28802113321753436,
+      "block_bootstrap_lower": -0.5441485635129342,
+      "block_bootstrap_upper": 1.1386744571882939,
+      "block_bootstrap_p": 0.4912543728135932,
+      "valid": true,
+      "q_within_origin_family": 0.8326194045834227,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_london",
+      "relation": "osm_pharmacy",
+      "origin_spec": "postcode_p90",
+      "step": 0.5891061762896895,
+      "block_bootstrap_lower": -0.006710607536353081,
+      "block_bootstrap_upper": 1.1806287079572921,
+      "block_bootstrap_p": 0.0559720139930035,
+      "valid": true,
+      "q_within_origin_family": 0.3638180909545228,
+      "q_joint_origin_family": 0.8171914042978511
+    },
+    {
+      "study": "greater_london",
+      "relation": "osm_pharmacy",
+      "origin_spec": "all_building_median",
+      "step": 0.4375316093238524,
+      "block_bootstrap_lower": -0.5068558098437308,
+      "block_bootstrap_upper": 1.374631086153703,
+      "block_bootstrap_p": 0.35932033983008493,
+      "valid": true,
+      "q_within_origin_family": 0.8114692653673163,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_london",
+      "relation": "osm_pharmacy",
+      "origin_spec": "residential_building_median",
+      "step": 0.6104066675042819,
+      "block_bootstrap_lower": -0.26343209803257644,
+      "block_bootstrap_upper": 1.5244260667139615,
+      "block_bootstrap_p": 0.15992003998001,
+      "valid": true,
+      "q_within_origin_family": 0.8450219334777055,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "nhs_gp",
+      "origin_spec": "representative_point",
+      "step": -0.0076727549434539195,
+      "block_bootstrap_lower": -0.6552019130424287,
+      "block_bootstrap_upper": 0.6717815753135137,
+      "block_bootstrap_p": 0.9835082458770614,
+      "valid": true,
+      "q_within_origin_family": 0.9835082458770614,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "nhs_gp",
+      "origin_spec": "postcode_median",
+      "step": 0.21295022719870785,
+      "block_bootstrap_lower": -0.4381720179855994,
+      "block_bootstrap_upper": 0.8204314810758376,
+      "block_bootstrap_p": 0.48875562218890556,
+      "valid": true,
+      "q_within_origin_family": 0.8326194045834227,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "nhs_gp",
+      "origin_spec": "postcode_p90",
+      "step": -0.16713108203322044,
+      "block_bootstrap_lower": -0.9075770790112208,
+      "block_bootstrap_upper": 0.5689767131302322,
+      "block_bootstrap_p": 0.6546726636681659,
+      "valid": true,
+      "q_within_origin_family": 0.8764708554813503,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "nhs_gp",
+      "origin_spec": "all_building_median",
+      "step": 0.00492399288561539,
+      "block_bootstrap_lower": -0.6537980688492149,
+      "block_bootstrap_upper": 0.7111437978712923,
+      "block_bootstrap_p": 0.9900049975012494,
+      "valid": true,
+      "q_within_origin_family": 0.9900049975012494,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "nhs_gp",
+      "origin_spec": "residential_building_median",
+      "step": -0.0022943985150589985,
+      "block_bootstrap_lower": -0.8878661288918396,
+      "block_bootstrap_upper": 0.9043188373151396,
+      "block_bootstrap_p": 0.9985007496251874,
+      "valid": true,
+      "q_within_origin_family": 0.9985007496251874,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "osm_pharmacy",
+      "origin_spec": "representative_point",
+      "step": -0.029712912471930267,
+      "block_bootstrap_lower": -0.8341644077816541,
+      "block_bootstrap_upper": 0.792910047634982,
+      "block_bootstrap_p": 0.9410294852573713,
+      "valid": true,
+      "q_within_origin_family": 0.9835082458770614,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "osm_pharmacy",
+      "origin_spec": "postcode_median",
+      "step": 0.4720778424739103,
+      "block_bootstrap_lower": -0.2503028466391448,
+      "block_bootstrap_upper": 1.2346376741263028,
+      "block_bootstrap_p": 0.19790104947526238,
+      "valid": true,
+      "q_within_origin_family": 0.7421289355322339,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "osm_pharmacy",
+      "origin_spec": "postcode_p90",
+      "step": 0.2589187547612891,
+      "block_bootstrap_lower": -0.3639774678965885,
+      "block_bootstrap_upper": 0.9155401634767956,
+      "block_bootstrap_p": 0.44577711144427784,
+      "valid": true,
+      "q_within_origin_family": 0.8764708554813503,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "osm_pharmacy",
+      "origin_spec": "all_building_median",
+      "step": 0.07592908897125306,
+      "block_bootstrap_lower": -0.6664966276987111,
+      "block_bootstrap_upper": 0.8308406705885557,
+      "block_bootstrap_p": 0.8555722138930535,
+      "valid": true,
+      "q_within_origin_family": 0.9900049975012494,
+      "q_joint_origin_family": 0.9985007496251874
+    },
+    {
+      "study": "greater_manchester",
+      "relation": "osm_pharmacy",
+      "origin_spec": "residential_building_median",
+      "step": 0.28189372692363845,
+      "block_bootstrap_lower": -0.4910318186322509,
+      "block_bootstrap_upper": 1.0539476156589025,
+      "block_bootstrap_p": 0.4577711144427786,
+      "valid": true,
+      "q_within_origin_family": 0.8450219334777055,
+      "q_joint_origin_family": 0.9985007496251874
+    }
+  ],
+  "hfge_effect_bound_counts": [
+    {
+      "origin_spec": "all_building_median",
+      "sesoi_sd": 0.1,
+      "effect_at_or_above_bound_excluded": 3
+    },
+    {
+      "origin_spec": "all_building_median",
+      "sesoi_sd": 0.2,
+      "effect_at_or_above_bound_excluded": 13
+    },
+    {
+      "origin_spec": "all_building_median",
+      "sesoi_sd": 0.3,
+      "effect_at_or_above_bound_excluded": 15
+    },
+    {
+      "origin_spec": "postcode_median",
+      "sesoi_sd": 0.1,
+      "effect_at_or_above_bound_excluded": 3
+    },
+    {
+      "origin_spec": "postcode_median",
+      "sesoi_sd": 0.2,
+      "effect_at_or_above_bound_excluded": 14
+    },
+    {
+      "origin_spec": "postcode_median",
+      "sesoi_sd": 0.3,
+      "effect_at_or_above_bound_excluded": 15
+    },
+    {
+      "origin_spec": "postcode_p90",
+      "sesoi_sd": 0.1,
+      "effect_at_or_above_bound_excluded": 4
+    },
+    {
+      "origin_spec": "postcode_p90",
+      "sesoi_sd": 0.2,
+      "effect_at_or_above_bound_excluded": 12
+    },
+    {
+      "origin_spec": "postcode_p90",
+      "sesoi_sd": 0.3,
+      "effect_at_or_above_bound_excluded": 13
+    },
+    {
+      "origin_spec": "representative_point",
+      "sesoi_sd": 0.1,
+      "effect_at_or_above_bound_excluded": 7
+    },
+    {
+      "origin_spec": "representative_point",
+      "sesoi_sd": 0.2,
+      "effect_at_or_above_bound_excluded": 15
+    },
+    {
+      "origin_spec": "representative_point",
+      "sesoi_sd": 0.3,
+      "effect_at_or_above_bound_excluded": 16
+    },
+    {
+      "origin_spec": "residential_building_median",
+      "sesoi_sd": 0.1,
+      "effect_at_or_above_bound_excluded": 3
+    },
+    {
+      "origin_spec": "residential_building_median",
+      "sesoi_sd": 0.2,
+      "effect_at_or_above_bound_excluded": 13
+    },
+    {
+      "origin_spec": "residential_building_median",
+      "sesoi_sd": 0.3,
+      "effect_at_or_above_bound_excluded": 14
+    }
+  ]
+}

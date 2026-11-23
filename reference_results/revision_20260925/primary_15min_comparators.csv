@@ -1,0 +1,9 @@
+study,relation,origin,benchmark,threshold,n_lsoas,point_uncovered_to_majority_covered,point_covered_to_majority_uncovered,flip_count,flip_percent,population_coverage_share,median_absolute_share_error
+greater_london,nhs_gp,representative_point,weighted,15,4994,268,53,321,6.427713255907088,0.8838308212442708,0.0
+greater_london,nhs_gp,ons_population_weighted_centroid,weighted,15,4994,128,34,162,3.2438926712054466,0.8838308212442708,0.0
+greater_london,osm_pharmacy,representative_point,weighted,15,4994,301,70,371,7.428914697637165,0.8563673460150645,0.0
+greater_london,osm_pharmacy,ons_population_weighted_centroid,weighted,15,4994,152,55,207,4.144973968762515,0.8563673460150645,0.0
+greater_manchester,nhs_gp,representative_point,weighted,15,1702,157,40,197,11.574618096357227,0.7274598468156103,0.014062462591874332
+greater_manchester,nhs_gp,ons_population_weighted_centroid,weighted,15,1702,46,36,82,4.81786133960047,0.7274598468156103,0.010421104930866055
+greater_manchester,osm_pharmacy,representative_point,weighted,15,1702,116,39,155,9.106933019976498,0.5868426173731269,0.0
+greater_manchester,osm_pharmacy,ons_population_weighted_centroid,weighted,15,1702,36,31,67,3.936545240893067,0.5868426173731269,0.0

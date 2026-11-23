@@ -1,0 +1,6 @@
+spec,absolute_step,direction,n_calibration,n_evaluation,mean_panel_detection,probability_any_panel,mean_estimated_step15,mean_ratio
+point_signal_point_fit,0.0,1,2000,1000,0.0145,0.054,-0.01166143672156749,
+postcode_signal_point_fit,0.0,1,2000,1000,0.0145,0.054,-0.01166143672156749,
+postcode_signal_share_fit,0.0,1,2000,1000,0.01175,0.046,0.007702323336011061,
+population_signal_point_fit,0.0,1,2000,1000,0.0145,0.054,-0.01166143672156749,
+population_signal_share_fit,0.0,1,2000,1000,0.013,0.049,0.005744913941674949,

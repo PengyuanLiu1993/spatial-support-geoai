@@ -1,0 +1,61 @@
+study,relation,origin_spec,origin_label,outcome_spec,outcome_label,n,valid_candidate_count,candidate_thresholds,peak_threshold,peak_abs_t,omnibus_max_t_p,omnibus_q_across_primary_care_panels
+greater_london,nhs_gp,representative_point,LSOA representative point,raw_ahah,Observed AHAH,4994,4,5;10;15;20,10.0,4.734402161064676,0.0004997501249375312,0.0009995002498750624
+greater_london,nhs_gp,representative_point,LSOA representative point,context_adjusted,Context-adjusted residual,4994,4,5;10;15;20,5.0,0.3014740059557539,0.9975012493753124,1.0
+greater_london,nhs_gp,representative_point,LSOA representative point,hfge_adjusted,HFGE-adjusted residual,4994,4,5;10;15;20,5.0,0.6918785755287165,0.9270364817591205,0.928535732133933
+greater_london,nhs_gp,postcode_median,Postcode-origin median,raw_ahah,Observed AHAH,4994,3,5;10;15,5.0,1.9296763462814204,0.1519240379810095,0.30184907546226886
+greater_london,nhs_gp,postcode_median,Postcode-origin median,context_adjusted,Context-adjusted residual,4994,3,5;10;15,5.0,1.6312398315574483,0.2848575712143928,0.37981009495252377
+greater_london,nhs_gp,postcode_median,Postcode-origin median,hfge_adjusted,HFGE-adjusted residual,4994,3,5;10;15,5.0,1.657060569442484,0.27586206896551724,0.5257371314342828
+greater_london,nhs_gp,postcode_p90,Postcode-origin P90,raw_ahah,Observed AHAH,4994,3,10;15;20,20.0,4.5106986216080855,0.0004997501249375312,0.0009995002498750624
+greater_london,nhs_gp,postcode_p90,Postcode-origin P90,context_adjusted,Context-adjusted residual,4994,3,10;15;20,10.0,1.006650243476297,0.6591704147926037,0.6591704147926037
+greater_london,nhs_gp,postcode_p90,Postcode-origin P90,hfge_adjusted,HFGE-adjusted residual,4994,3,10;15;20,10.0,1.364560322293268,0.4222888555722139,0.5630518074296186
+greater_london,nhs_gp,all_building_median,All-building-origin median,raw_ahah,Observed AHAH,4962,3,5;10;15,5.0,2.3221286286790446,0.06146926536731634,0.08195902048975512
+greater_london,nhs_gp,all_building_median,All-building-origin median,context_adjusted,Context-adjusted residual,4962,3,5;10;15,10.0,1.7326768297048285,0.21639180409795103,0.5503914709312011
+greater_london,nhs_gp,all_building_median,All-building-origin median,hfge_adjusted,HFGE-adjusted residual,4962,3,5;10;15,10.0,1.8434810462672935,0.1794102948525737,0.7176411794102948
+greater_london,nhs_gp,residential_building_median,Residential-building-origin median,raw_ahah,Observed AHAH,4534,3,5;10;15,10.0,3.0839135699177884,0.0024987506246876563,0.004997501249375313
+greater_london,nhs_gp,residential_building_median,Residential-building-origin median,context_adjusted,Context-adjusted residual,4534,3,5;10;15,15.0,0.7440402704678285,0.8315842078960519,0.9445277361319341
+greater_london,nhs_gp,residential_building_median,Residential-building-origin median,hfge_adjusted,HFGE-adjusted residual,4534,3,5;10;15,15.0,0.918784607440557,0.7251374312843578,0.8275862068965517
+greater_london,osm_pharmacy,representative_point,LSOA representative point,raw_ahah,Observed AHAH,4994,4,5;10;15;20,20.0,5.532758984940309,0.0004997501249375312,0.0009995002498750624
+greater_london,osm_pharmacy,representative_point,LSOA representative point,context_adjusted,Context-adjusted residual,4994,4,5;10;15;20,15.0,1.5830483636297783,0.36431784107946025,0.8385807096451774
+greater_london,osm_pharmacy,representative_point,LSOA representative point,hfge_adjusted,HFGE-adjusted residual,4994,4,5;10;15;20,15.0,1.4589432271076033,0.43728135932033985,0.928535732133933
+greater_london,osm_pharmacy,postcode_median,Postcode-origin median,raw_ahah,Observed AHAH,4994,4,5;10;15;20,20.0,3.746023990875058,0.001999000499750125,0.0079960019990005
+greater_london,osm_pharmacy,postcode_median,Postcode-origin median,context_adjusted,Context-adjusted residual,4994,4,5;10;15;20,10.0,1.7857149085667685,0.25487256371814093,0.37981009495252377
+greater_london,osm_pharmacy,postcode_median,Postcode-origin median,hfge_adjusted,HFGE-adjusted residual,4994,4,5;10;15;20,10.0,2.0712284882910232,0.14742628685657172,0.5257371314342828
+greater_london,osm_pharmacy,postcode_p90,Postcode-origin P90,raw_ahah,Observed AHAH,4994,4,5;10;15;20,20.0,7.343276481851362,0.0004997501249375312,0.0009995002498750624
+greater_london,osm_pharmacy,postcode_p90,Postcode-origin P90,context_adjusted,Context-adjusted residual,4994,4,5;10;15;20,20.0,2.078466798641411,0.13543228385807096,0.5417291354322838
+greater_london,osm_pharmacy,postcode_p90,Postcode-origin P90,hfge_adjusted,HFGE-adjusted residual,4994,4,5;10;15;20,20.0,2.712383721084659,0.030484757621189407,0.12193903048475763
+greater_london,osm_pharmacy,all_building_median,All-building-origin median,raw_ahah,Observed AHAH,4962,4,5;10;15;20,15.0,4.810015722613968,0.0004997501249375312,0.001999000499750125
+greater_london,osm_pharmacy,all_building_median,All-building-origin median,context_adjusted,Context-adjusted residual,4962,4,5;10;15;20,10.0,1.5142532083310416,0.4127936031984008,0.5503914709312011
+greater_london,osm_pharmacy,all_building_median,All-building-origin median,hfge_adjusted,HFGE-adjusted residual,4962,4,5;10;15;20,10.0,1.5692774929887516,0.37681159420289856,0.7536231884057971
+greater_london,osm_pharmacy,residential_building_median,Residential-building-origin median,raw_ahah,Observed AHAH,4534,3,5;10;15,15.0,4.707018348046422,0.0004997501249375312,0.001999000499750125
+greater_london,osm_pharmacy,residential_building_median,Residential-building-origin median,context_adjusted,Context-adjusted residual,4534,3,5;10;15,5.0,2.153770368330935,0.09195402298850575,0.367816091954023
+greater_london,osm_pharmacy,residential_building_median,Residential-building-origin median,hfge_adjusted,HFGE-adjusted residual,4534,3,5;10;15,5.0,2.577100564225673,0.035982008995502246,0.14392803598200898
+greater_manchester,nhs_gp,representative_point,LSOA representative point,raw_ahah,Observed AHAH,1702,4,5;10;15;20,20.0,1.8266039527351359,0.23788105947026486,0.3118440779610195
+greater_manchester,nhs_gp,representative_point,LSOA representative point,context_adjusted,Context-adjusted residual,1702,4,5;10;15;20,5.0,0.189636153167723,1.0,1.0
+greater_manchester,nhs_gp,representative_point,LSOA representative point,hfge_adjusted,HFGE-adjusted residual,1702,4,5;10;15;20,10.0,0.685009995525539,0.928535732133933,0.928535732133933
+greater_manchester,nhs_gp,postcode_median,Postcode-origin median,raw_ahah,Observed AHAH,1702,4,5;10;15;20,5.0,1.2396168145518154,0.5867066466766616,0.5867066466766616
+greater_manchester,nhs_gp,postcode_median,Postcode-origin median,context_adjusted,Context-adjusted residual,1702,4,5;10;15;20,20.0,0.8592969740261808,0.8330834582708646,0.8330834582708646
+greater_manchester,nhs_gp,postcode_median,Postcode-origin median,hfge_adjusted,HFGE-adjusted residual,1702,4,5;10;15;20,15.0,0.6650256535932941,0.9380309845077461,0.9380309845077461
+greater_manchester,nhs_gp,postcode_p90,Postcode-origin P90,raw_ahah,Observed AHAH,1702,3,10;15;20,20.0,1.9876933085279331,0.136431784107946,0.18190904547726136
+greater_manchester,nhs_gp,postcode_p90,Postcode-origin P90,context_adjusted,Context-adjusted residual,1702,3,10;15;20,10.0,1.3933813248469205,0.40929535232383807,0.6591704147926037
+greater_manchester,nhs_gp,postcode_p90,Postcode-origin P90,hfge_adjusted,HFGE-adjusted residual,1702,3,10;15;20,20.0,1.5618439111414302,0.31084457771114443,0.5630518074296186
+greater_manchester,nhs_gp,all_building_median,All-building-origin median,raw_ahah,Observed AHAH,1693,4,5;10;15;20,20.0,0.7249098229022881,0.9135432283858071,0.9135432283858071
+greater_manchester,nhs_gp,all_building_median,All-building-origin median,context_adjusted,Context-adjusted residual,1693,4,5;10;15;20,5.0,1.5339019813911938,0.408295852073963,0.5503914709312011
+greater_manchester,nhs_gp,all_building_median,All-building-origin median,hfge_adjusted,HFGE-adjusted residual,1693,4,5;10;15;20,5.0,1.1042834228042377,0.7081459270364817,0.8745627186406797
+greater_manchester,nhs_gp,residential_building_median,Residential-building-origin median,raw_ahah,Observed AHAH,1496,4,5;10;15;20,20.0,1.0115533621992987,0.7756121939030485,0.7756121939030485
+greater_manchester,nhs_gp,residential_building_median,Residential-building-origin median,context_adjusted,Context-adjusted residual,1496,4,5;10;15;20,10.0,0.6336647785627976,0.9445277361319341,0.9445277361319341
+greater_manchester,nhs_gp,residential_building_median,Residential-building-origin median,hfge_adjusted,HFGE-adjusted residual,1496,4,5;10;15;20,10.0,0.8843833363258258,0.8275862068965517,0.8275862068965517
+greater_manchester,osm_pharmacy,representative_point,LSOA representative point,raw_ahah,Observed AHAH,1702,4,5;10;15;20,5.0,1.6711987131294586,0.3118440779610195,0.3118440779610195
+greater_manchester,osm_pharmacy,representative_point,LSOA representative point,context_adjusted,Context-adjusted residual,1702,4,5;10;15;20,10.0,1.466658416377018,0.4192903548225887,0.8385807096451774
+greater_manchester,osm_pharmacy,representative_point,LSOA representative point,hfge_adjusted,HFGE-adjusted residual,1702,4,5;10;15;20,20.0,1.408481146234106,0.4662668665667166,0.928535732133933
+greater_manchester,osm_pharmacy,postcode_median,Postcode-origin median,raw_ahah,Observed AHAH,1702,4,5;10;15;20,5.0,1.8592796478215687,0.22638680659670166,0.30184907546226886
+greater_manchester,osm_pharmacy,postcode_median,Postcode-origin median,context_adjusted,Context-adjusted residual,1702,4,5;10;15;20,10.0,2.120802363880888,0.12143928035982009,0.37981009495252377
+greater_manchester,osm_pharmacy,postcode_median,Postcode-origin median,hfge_adjusted,HFGE-adjusted residual,1702,4,5;10;15;20,10.0,1.53372976322242,0.39430284857571213,0.5257371314342828
+greater_manchester,osm_pharmacy,postcode_p90,Postcode-origin P90,raw_ahah,Observed AHAH,1702,3,10;15;20,15.0,1.5302250542316824,0.3188405797101449,0.3188405797101449
+greater_manchester,osm_pharmacy,postcode_p90,Postcode-origin P90,context_adjusted,Context-adjusted residual,1702,3,10;15;20,10.0,1.1992626885905198,0.5287356321839081,0.6591704147926037
+greater_manchester,osm_pharmacy,postcode_p90,Postcode-origin P90,hfge_adjusted,HFGE-adjusted residual,1702,3,10;15;20,15.0,0.7019288974998066,0.8470764617691154,0.8470764617691154
+greater_manchester,osm_pharmacy,all_building_median,All-building-origin median,raw_ahah,Observed AHAH,1693,4,5;10;15;20,5.0,2.4603427005577063,0.046476761619190406,0.08195902048975512
+greater_manchester,osm_pharmacy,all_building_median,All-building-origin median,context_adjusted,Context-adjusted residual,1693,4,5;10;15;20,20.0,0.5305019170204063,0.9760119940029985,0.9760119940029985
+greater_manchester,osm_pharmacy,all_building_median,All-building-origin median,hfge_adjusted,HFGE-adjusted residual,1693,4,5;10;15;20,10.0,0.8027677624511925,0.8745627186406797,0.8745627186406797
+greater_manchester,osm_pharmacy,residential_building_median,Residential-building-origin median,raw_ahah,Observed AHAH,1496,4,5;10;15;20,20.0,1.8991684680433267,0.1724137931034483,0.2298850574712644
+greater_manchester,osm_pharmacy,residential_building_median,Residential-building-origin median,context_adjusted,Context-adjusted residual,1496,4,5;10;15;20,20.0,1.5134465328231261,0.42128935532233885,0.8425787106446777
+greater_manchester,osm_pharmacy,residential_building_median,Residential-building-origin median,hfge_adjusted,HFGE-adjusted residual,1496,4,5;10;15;20,20.0,1.1364840781745633,0.6636681659170415,0.8275862068965517

@@ -1,0 +1,32 @@
+{
+  "spatial_blocks": 25,
+  "block_seed": 20260903,
+  "bootstrap_replicates": 2000,
+  "calibration_replicates": 2000,
+  "evaluation_replicates": 1000,
+  "candidate_minutes": [
+    5.0,
+    10.0,
+    15.0,
+    20.0
+  ],
+  "splines": {
+    "df4": [
+      0,
+      5,
+      15,
+      25,
+      40
+    ],
+    "df6": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      30,
+      40
+    ]
+  },
+  "null_calibration": "Separate calibration and evaluation pseudo-outcomes; spatial wild signs; BH across four city-relation panels within each specification."
+}
